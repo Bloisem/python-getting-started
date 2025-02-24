@@ -5,7 +5,9 @@ venv/
 
 # Django files
 staticfiles/
-db.sqlite3
+# Ignore SQLite database files
+*.sqlite3
 
 # macOS files
 .DS_Store
+railway.py
